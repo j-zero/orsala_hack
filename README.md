@@ -25,8 +25,10 @@ If lamp is turned off:
  
 If lamp is turned on:
  * Tap the rotary encoder to turn off the lamp
- * Turn rotaryencoder to change the brightness
+ * Turn rotary encoder to change the brightness
+ * Turn the rotary encoder below minimum brightness to turn off the lamp
  * Press and turn the rotary encoder to change color temperature
+ * Internal LED flashes if minimum/maximum temperature/brightness is reached
 
 The current color and brightness is saved in EEPROM on power off the lamp.
 
