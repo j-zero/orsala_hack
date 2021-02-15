@@ -54,7 +54,18 @@ PA2   encoder pin 2
 PB5   encoder button
 ```
 
-# requirements
+# Requirements
+## Build
 Sduino Arduino API Ports to STM8S https://tenbaht.github.io/sduino/
 
+## Flash
+stm8flash (https://github.com/tenbaht/stm8flash/)
 STLINKv2 (https://www.st.com/en/development-tools/st-link-v2.html)
+
+# Flash firmware
+
+* Connect your STLINKv2 to the pads on the pcb (VCC is not neede if lamp is powered)
+* Flash firmware:
+```
+./stm8flash.exe -c stlinkv2 -p stm8s003f3 -w orsala_hack.hex
+```
