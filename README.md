@@ -5,7 +5,7 @@ Alternative firmware for IKEA ORSALA lamp (https://www.ikea.com/de/de/p/orsala-a
 
 # but why?
 The ORSALA lamp from IKEA is a nice desktop lamp but has a very strange user experience. It features one rotary encoeder with button to control the brightness, color temperature and an on/off switch.
-On the original firmware the following functions are implemented: 
+### On the original firmware the following functions are implemented: 
 
 If lamp is turned off: 
  * Tap the encoder to turn on the lamp.
@@ -17,7 +17,7 @@ If lamp is turned on:
 
 Also the lamp does not save the brightness or color temperature on power loss.
 
-This firmware fixes the user experience in the following way:
+### This alternative firmware fixes the user experience in the following way:
 
 If lamp is turned off: 
  * Tap the rotary encoder to turn on the Lamp
