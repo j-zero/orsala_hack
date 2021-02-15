@@ -1,16 +1,17 @@
 # orsala_hack
 Alternative firmware for IKEA ORSALA lamp (https://www.ikea.com/de/de/p/orsala-arbeitsleuchte-led-dimmbar-weiss-00482904/)
 
-# why
+# but why?
 The ORSALA lamp from IKEA is a nice desktop lamp but has a very bad user experience. It features one rotary encoeder with button to control the brightness, color temperature and an on/off switch.
 On the original firmware the following functions are implemented: 
 
-## If lamp is turned off: 
+If lamp is turned off: 
   * Short press the encoder to turn on the lamp.
-## If lamp is turned on:
+If lamp is turned on:
  ** Press the encoder for about 750ms to turn off the lamp.
  ** Press the encoder to switch between brightness and temperature control.
  ** Turn the encoder in to change brightness or color temperature according to the current mode.
+
 
 
 # information
