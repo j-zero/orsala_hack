@@ -123,6 +123,7 @@ void encoder_callback(bool direction, bool btn_pressed){
 
 void setup() {
 
+  FLASH_SetLowPowerMode(FLASH_LPMODE_POWERDOWN);
   // define pin modes
   pinMode(LED_INT, OUTPUT);
   pinMode(LED_WARM, OUTPUT);
