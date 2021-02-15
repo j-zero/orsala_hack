@@ -36,6 +36,9 @@ The current color and brightness is saved in EEPROM on power off the lamp.
 The IKEA ORSALA lamp contains a STM8S003F3P6 (https://www.st.com/resource/en/datasheet/stm8s003f3.pdf) cpu and two TTP932 led drivers for the warm and cold white leds.
 The SWIM Interface is lead out to pads with 2mm spacing:
 
+![alt text](https://raw.githubusercontent.com/j-zero/orsala_hack/main/images/SWIM_Interface.jpg?raw=true)
+![alt text](https://raw.githubusercontent.com/j-zero/orsala_hack/main/images/cpu.jpg?raw=true)
+
 ```
 +    VSS     (VCC)      3.3V on STLINKv2
 R    NRST    (Reset)    RST  on STLINKv2
