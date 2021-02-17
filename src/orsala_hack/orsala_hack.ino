@@ -1,3 +1,13 @@
+/*
+ * ------------------------------------------------------------
+ * "THE BEERWARE LICENSE" (Revision 42):
+ * <d@tenpir.at> wrote this code. As long as you retain this 
+ * notice, you can do whatever you want with this stuff. If we
+ * meet someday, and you think this stuff is worth it, you can
+ * buy me a beer in return.
+ * ------------------------------------------------------------
+ */
+
 #include <EEPROM.h>
 
 #define LED_INT   PD4   // internal led
