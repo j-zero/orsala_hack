@@ -1,11 +1,9 @@
 # orsala_hack
 Alternative firmware for IKEA ORSALA lamp (https://www.ikea.com/de/de/p/orsala-arbeitsleuchte-led-dimmbar-weiss-00482904/)
 
-
-
-# but why?
+## but why?
 The ORSALA lamp from IKEA is a nice desktop lamp but has a very strange user experience. It features one rotary encoeder with button to control the brightness, color temperature and an on/off switch.
-### On the original firmware the following functions are implemented: 
+On the original firmware the following functions are implemented: 
 
 If lamp is turned off: 
  * Tap the encoder to turn on the lamp.
@@ -17,7 +15,7 @@ If lamp is turned on:
 
 Also the lamp does not save the brightness or color temperature on power loss.
 
-### This alternative firmware fixes the user experience in the following way:
+This firmware fixes the user experience in the following way:
 
 If lamp is turned off: 
  * Tap the rotary encoder to turn on the Lamp
@@ -32,12 +30,12 @@ If lamp is turned on:
 
 The current color and brightness is saved in EEPROM on power off the lamp.
 
-# Information
+## Information
 The IKEA ORSALA lamp contains a STM8S003F3P6 (https://www.st.com/resource/en/datasheet/stm8s003f3.pdf) cpu and two TTP932 led drivers for the warm and cold white leds.
 The SWIM Interface is lead out to pads with 2mm spacing:
 
-![alt text](https://raw.githubusercontent.com/j-zero/orsala_hack/main/images/SWIM_Interface.jpg?raw=true)
-![alt text](https://raw.githubusercontent.com/j-zero/orsala_hack/main/images/cpu.jpg?raw=true)
+![SWIM Interface](https://datenpir.at/images/orsala_hack/SWIM_Interface.jpg)
+![CPU](https://datenpir.at/images/orsala_hack/CPU.jpg)
 
 ```
 +    VSS     (VCC)      3.3V on STLINKv2
@@ -46,7 +44,7 @@ S    SWIM    (SWIM)     SWIM on STLINKv2
 -    VDD     (GND)      GND  on STLINKv2
 ```
 
-# Pinout
+## Pinout
 
 ```
 PD4   internal led
@@ -57,19 +55,19 @@ PA2   encoder pin 2
 PB5   encoder button
 ```
 
-# Requirements
-## Build
+## Requirements
+### Build
 Sduino Arduino API Ports to STM8S https://tenbaht.github.io/sduino/
 
-## Flash
+### Flash
 stm8flash (https://github.com/tenbaht/stm8flash/)
 
 STLINKv2 (https://www.st.com/en/development-tools/st-link-v2.html)
 
-# Flash firmware
+## Flash firmware
 
-* Connect your STLINKv2 to the pads on the pcb (VCC is not neede if lamp is powered)
+* Connect your STLINKv2 to the pads on the pcb (VCC is not needed if lamp is powered)
 * Flash firmware:
-```
+```bash
 ./stm8flash -c stlinkv2 -p stm8s003f3 -w orsala_hack.hex
 ```
