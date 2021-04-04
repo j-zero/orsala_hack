@@ -1,4 +1,5 @@
 # orsala_hack
+https://github.com/j-zero/orsala_hack
 Alternative firmware for IKEA ORSALA lamp (https://www.ikea.com/de/de/p/orsala-arbeitsleuchte-led-dimmbar-weiss-00482904/)
 
 ## but why?
