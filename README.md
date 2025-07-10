@@ -1,7 +1,7 @@
 # orsala_hack
 https://github.com/j-zero/orsala_hack
 
-Alternative firmware for IKEA ORSALA lamp (https://www.ikea.com/de/de/p/orsala-arbeitsleuchte-led-dimmbar-weiss-00482904/)
+Alternative firmware for IKEA ORSALA lamp (https://web.archive.org/web/20211027050203/https://www.ikea.com/de/de/p/orsala-arbeitsleuchte-led-dimmbar-weiss-00482904/)
 
 ## but why?
 The ORSALA lamp from IKEA is a nice desktop lamp but has a very strange user experience. It features one rotary encoeder with button to control the brightness, color temperature and an on/off switch.
